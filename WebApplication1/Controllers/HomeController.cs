@@ -9,9 +9,9 @@ namespace WebApplication1.Controllers
     public class HomeController : Controller
     {
         // GET: Home
-        public ActionResult Index()
+        public String Index()
         {
-            return View();
+            return "Bienvenidos a MVC .NET";
         }
     }
 }
