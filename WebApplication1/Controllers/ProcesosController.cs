@@ -6,14 +6,12 @@ using System.Web.Mvc;
 
 namespace WebApplication1.Controllers
 {
-    public class HomeController : Controller
+    public class ProcesosController : Controller
     {
-        // GET: Home
-        public String Index()
+        // GET: Procesos
+        public String Listado()
         {
-            return "Bienvenidos a MVC .NET";
+            return "Procesos";
         }
-
-        
     }
 }
