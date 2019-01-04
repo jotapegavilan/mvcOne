@@ -11,7 +11,7 @@ namespace WebApplication1.Controllers
         // GET: Procesos
         public String Listado()
         {
-            return "Procesos";
+            return "en controladror de Procesos";
         }
     }
 }
